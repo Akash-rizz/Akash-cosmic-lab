@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050611">
+  <meta name="description" content="AKASH Cosmic Lab — an interactive CSS-only science experience.">
+  <title>AKASH — Cosmic Lab</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="stars stars-a"></div>
+  <div class="stars stars-b"></div>
+  <div class="nebula nebula-a"></div>
+  <div class="nebula nebula-b"></div>
+
+  <header class="topbar">
+    <a href="#home" class="logo"><span>A</span> AKASH</a>
+    <nav>
+      <a href="#discover">DISCOVER</a>
+      <a href="#modules">MODULES</a>
+      <a href="#about">ABOUT</a>
+    </nav>
+    <a class="top-link" href="https://github.com/" target="_blank" rel="noopener">GITHUB ↗</a>
+  </header>
+
+  <main id="home">
+
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL COSMIC INTERFACE · 2026</p>
+        <h1>THE<br><span>UNIVERSE</span><br>IS CURIOUS.</h1>
+        <p class="hero-text">Welcome to AKASH — a futuristic space for exploring the strange, beautiful and surprisingly understandable side of science.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#discover">ENTER THE LAB <b>↓</b></a>
+          <a class="button" href="#modules">EXPLORE MODULES</a>
+        </div>
+        <div class="stats">
+          <div><strong>∞</strong><span>QUESTIONS</span></div>
+          <div><strong>5</strong><span>SCIENCE FIELDS</span></div>
+          <div><strong>01</strong><span>CURIOUS MIND</span></div>
+        </div>
+      </div>
+
+      <div class="cosmos">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="planet">
+          <div class="planet-light"></div>
+          <div class="planet-land"></div>
+          <div class="planet-cloud"></div>
+        </div>
+        <div class="satellite"></div>
+        <div class="cosmos-label label-top">EXOPLANET // 01</div>
+        <div class="cosmos-label label-bottom">SIGNAL DETECTED</div>
+      </div>
+    </section>
+
+    <section id="discover" class="discover">
+      <div class="section-intro">
+        <p class="eyebrow">01 / DISCOVER</p>
+        <h2>SCIENCE, BUT<br><i>MAKE IT BEAUTIFUL.</i></h2>
+        <p>Forget the dusty textbook feeling. These are small visual windows into huge ideas.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card wide">
+          <span class="card-id">01 — COSMOS</span>
+          <div class="mini-galaxy">
+            <span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="feature-copy">
+            <p class="eyebrow">ASTRONOMY</p>
+            <h3>WE LIVE<br>INSIDE A GALAXY.</h3>
+            <p>The Milky Way contains hundreds of billions of stars — and our solar system is only one tiny neighborhood inside it.</p>
+          </div>
+        </article>
+
+        <article class="feature-card">
+          <span class="card-id">02 — LIGHT</span>
+          <div class="light-wave"><i></i><i></i><i></i></div>
+          <p class="eyebrow">PHYSICS</p>
+          <h3>LIGHT<br>IS WEIRD.</h3>
+          <p>It behaves like a wave and can also be described in terms of particles called photons.</p>
+        </article>
+
+        <article class="feature-card">
+          <span class="card-id">03 — ATOMS</span>
+          <div class="atom">
+            <div class="nucleus">C</div>
+            <div class="electron e1"></div>
+            <div class="electron e2"></div>
+          </div>
+          <p class="eyebrow">CHEMISTRY</p>
+          <h3>EVERYTHING<br>IS BUILT.</h3>
+          <p>Atoms combine, rearrange and interact to create the enormous variety of matter around us.</p>
+        </article>
+
+        <article class="feature-card wide">
+          <span class="card-id">04 — LIFE</span>
+          <div class="dna">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="feature-copy">
+            <p class="eyebrow">BIOLOGY</p>
+            <h3>LIFE<br>HAS A CODE.</h3>
+            <p>DNA stores biological information using four bases. A microscopic chemical language can help build an entire living organism.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="modules" class="modules">
+      <div class="section-intro">
+        <p class="eyebrow">02 / MODULES</p>
+        <h2>OPEN A<br><i>NEW WORLD.</i></h2>
+        <p>Tap a module to reveal a compact science briefing. No app. No login. No JavaScript.</p>
+      </div>
+
+      <div class="module-grid">
+        <details class="module-card" open>
+          <summary><span>01</span><b>BLACK HOLES</b><em>+</em></summary>
+          <div class="module-content">
+            <div class="blackhole-small"><div></div></div>
+            <p>A black hole is a region where gravity is so strong that, beyond its event horizon, even light cannot escape.</p>
+            <small>GRAVITY · SPACE-TIME · EVENT HORIZON</small>
+          </div>
+        </details>
+
+        <details class="module-card">
+          <summary><span>02</span><b>QUANTUM WORLD</b><em>+</em></summary>
+          <div class="module-content">
+            <div class="quantum-grid"></div>
+            <p>At tiny scales, nature follows quantum rules. Particles can show wave-like behavior and outcomes are described by probabilities.</p>
+            <small>QUANTA · WAVES · PROBABILITY</small>
+          </div>
+        </details>
+
+        <details class="module-card">
+          <summary><span>03</span><b>HUMAN BODY</b><em>+</em></summary>
+          <div class="module-content">
+            <div class="pulse-line"><span></span></div>
+            <p>Your body is a network of cells, organs and chemical signals constantly exchanging information to keep you alive.</p>
+            <small>CELLS · DNA · SYSTEMS</small>
+          </div>
+        </details>
+
+        <details class="module-card">
+          <summary><span>04</span><b>ARTIFICIAL INTELLIGENCE</b><em>+</em></summary>
+          <div class="module-content">
+            <div class="ai-core"><i></i><i></i><i></i><i></i></div>
+            <p>AI systems use algorithms and computation to find patterns, generate outputs and perform tasks that can involve learning or reasoning.</p>
+            <small>DATA · MODELS · COMPUTATION</small>
+          </div>
+        </details>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-art">
+        <div class="ring r1"></div><div class="ring r2"></div><div class="ring r3"></div>
+        <div class="core-letter">A</div>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">03 / THE PERSON BEHIND THE LAB</p>
+        <h2>CURIOUS<br><i>BY DEFAULT.</i></h2>
+        <p>I’m AKASH, a student interested in science, technology and the universe. This site is a personal digital lab — a place to turn curiosity into something people can actually experience.</p>
+        <div class="chips">
+          <span>ASTRONOMY</span><span>PHYSICS</span><span>CHEMISTRY</span><span>BIOLOGY</span><span>AI</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="final">
+      <p class="eyebrow">FINAL TRANSMISSION</p>
+      <h2>KEEP<br><span>LOOKING UP.</span></h2>
+      <a class="button primary" href="#home">BACK TO ORBIT ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>AKASH<span>.</span></strong><small> COSMIC LAB</small></div>
+    <p>Built with curiosity · 2026</p>
+    <a href="https://github.com/" target="_blank" rel="noopener">GITHUB ↗</a>
+  </footer>
+
+</body>
+</html>
